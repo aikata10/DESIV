@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for ((i = 1; i <= $1; i++))
+do  gcc main.c -o a && ./a && python3 Fault\ attack\ on\ SIV-Rijndael256\ AEAD.py 
+done
